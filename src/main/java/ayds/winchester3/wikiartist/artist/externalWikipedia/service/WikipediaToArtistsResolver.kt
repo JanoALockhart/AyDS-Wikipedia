@@ -23,9 +23,9 @@ internal class WikipediaToArtistsResolverImpl : WikipediaToArtistsResolver {
         }
     }
 
-    private fun JsonObject.getDescription() = this[ayds.winchester3.wikiartist.artist.externalWikipedia.service.SNIPPET].asString
+    private fun JsonObject.getDescription() = this[SNIPPET].asString
 
-    private fun JsonObject.getWikipediaUrl() = ayds.winchester3.wikiartist.artist.externalWikipedia.service.BASE_URL + this[ayds.winchester3.wikiartist.artist.externalWikipedia.service.PAGE_ID]
+    private fun JsonObject.getWikipediaUrl() = BASE_URL + this[PAGE_ID]
 
     private fun String?.getFirstItem(): JsonObject {
         val jsonObject = Gson().fromJson(this, JsonObject::class.java)
