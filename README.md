@@ -1,6 +1,6 @@
 # AyDS-Wikipedia
 ## Obtencion de la instancia del servicio de Wikipedia
-Inicializar el objeto WikipediaInjector y acceder al atributo wikipediaService, por ejemplo:
+Inicializar el objeto WikipediaInjector y acceder al atributo wikipediaService, por ejemplo:  
 val wikipediaService = WikipediaInjector.wikipediaService
   
 ## Metodo getArtist
