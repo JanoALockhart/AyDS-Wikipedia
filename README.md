@@ -9,4 +9,5 @@ y retorna un WikipediaArtist, en caso de que no se encuentre un artículo, devue
 WikipediaArtist tiene el nombre del artista (name), el link a la URL de Wikipedia (WikipediaUrl)
 y la descripción del artista.
 
-
+## Link del submodulo
+https://github.com/JanoALockhart/AyDS-Wikipedia
