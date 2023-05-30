@@ -7,7 +7,8 @@ val wikipediaService = WikipediaInjector.wikipediaService
 El método getArtist recibe como parámetro un artistName de tipo String
 y retorna un WikipediaArtist, en caso de que no se encuentre un artículo, devuelve null.
 WikipediaArtist tiene el nombre del artista (name), el link a la URL de Wikipedia (WikipediaUrl)
-y la descripción del artista.
+y la descripción del artista.  
+La url de la imagen se puede obtener con la constante WIKIPEDIA_LOGO_URL en el archivo WikipediaArtis.kt
 
 ## Link del submodulo
 https://github.com/JanoALockhart/AyDS-Wikipedia
